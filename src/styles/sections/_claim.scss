@@ -1,0 +1,13 @@
+section.claim {
+  text-align: center;
+  strong {
+    display: block;
+    font-size: 3em;
+    line-height: 1;
+    margin: 2em 0 1em 0;
+  }
+  em {
+    background-color: $primary-500;
+    color: #FFF;
+  }
+}

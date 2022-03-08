@@ -1,0 +1,34 @@
+{
+  "name": "losedose",
+  "version": "1.0.0",
+  "description": "Website of the „Lose Dose“ project, providing unpackaged food in Lüdenscheid.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.pug",
+    "build": "parcel build src/index.pug",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://tillsanders@github.com/tillsanders/losedose.git"
+  },
+  "keywords": [
+    "picocss",
+    "unverpackt",
+    "lüdenscheid"
+  ],
+  "author": "Till Sanders <mail@till-sanders.de>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/tillsanders/losedose/issues"
+  },
+  "homepage": "https://github.com/tillsanders/losedose#readme",
+  "dependencies": {
+    "@picocss/pico": "^1.4.4"
+  },
+  "devDependencies": {
+    "@parcel/transformer-pug": "^2.3.2",
+    "@parcel/transformer-sass": "^2.3.2",
+    "parcel": "^2.3.2"
+  }
+}
