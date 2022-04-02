@@ -32,3 +32,12 @@ body {
     background-size: 110rem;
   }
 }
+
+em {
+  background-color: $primary-500;
+  color: #FFF;
+}
+
+details summary {
+  font-weight: bold;
+}

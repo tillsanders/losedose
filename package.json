@@ -2,7 +2,6 @@
   "name": "losedose",
   "version": "1.0.0",
   "description": "Website of the „Lose Dose“ project, providing unpackaged food in Lüdenscheid.",
-  "main": "index.js",
   "scripts": {
     "dev": "parcel src/index.pug",
     "build": "parcel build src/index.pug",
@@ -27,8 +26,8 @@
     "@picocss/pico": "^1.4.4"
   },
   "devDependencies": {
-    "@parcel/transformer-pug": "^2.3.2",
-    "@parcel/transformer-sass": "^2.3.2",
-    "parcel": "^2.3.2"
+    "@parcel/transformer-pug": "^2.4.1",
+    "@parcel/transformer-sass": "^2.4.1",
+    "parcel": "^2.4.1"
   }
 }

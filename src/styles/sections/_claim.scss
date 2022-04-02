@@ -6,8 +6,7 @@ section.claim {
     line-height: 1;
     margin: 2em 0 1em 0;
   }
-  em {
-    background-color: $primary-500;
-    color: #FFF;
+  @media (min-width: map-get($breakpoints, "xl")) {
+    max-width: 1130px;
   }
 }

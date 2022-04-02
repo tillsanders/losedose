@@ -9,3 +9,10 @@ $primary-600: hsl($primary-hue, 85%, 35%);
 $primary-700: hsl($primary-hue, 85%, 25%);
 $primary-800: hsl($primary-hue, 85%, 15%);
 $primary-900: hsl($primary-hue, 85%, 5%);
+
+$viewports: (
+  sm: 510px,
+  md: 700px,
+  lg: 800px,
+  xl: 900px
+) !default;

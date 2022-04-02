@@ -1,0 +1,20 @@
+section.roadmap {
+  ul {
+    text-align: center;
+  }
+  li {
+    list-style-type: none;
+    font-style: italic;
+    &.done {
+      color: var(--primary);
+      text-decoration: line-through;
+      text-decoration-color: rgba($primary-600, 0.5);
+      &:hover {
+        text-decoration: none;
+      }
+    }
+    &.wip {
+      color: rgb(228, 192, 33);
+    }
+  }
+}
